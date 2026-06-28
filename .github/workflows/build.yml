@@ -12,7 +12,7 @@ jobs:
     container: registry.gitlab.com/hadzhioglu/padavan-ng
     defaults: { run: { shell: bash } }
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - name: Get variables
       run: |
